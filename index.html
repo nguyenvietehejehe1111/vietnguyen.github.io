@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>document</title>
+    <style>
+        .hinhvuong
+        {
+            width: 150px;
+            height: 150px;
+            border: 1px solid palevioletred; 
+        }
+
+        .hinhchunhat
+        {
+            width: 200px;
+            height: 150;
+            border: 1px solid black;
+        }
+        
+        #full_name
+        {
+            border: 7px dashed green;
+            width: 100px;
+            line-height: 50px;
+        }
+
+        .dotted
+        {
+            border: 7px dotted lightcoral;
+            width: 150px;
+            height: 60px;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+        }
+
+        .dashed
+        {
+            border: 7px dashed rgb(128, 162, 240);
+            width: 150px;
+            height: 60px;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+        }
+        
+        .solid
+        {
+            border: 7px solid rgb(234, 240, 128);
+            width: 150px;
+            height: 60px;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+        }
+
+        .groove
+        {
+            border: 7px groove rgb(128, 240, 238);
+            width: 150px;
+            height: 60px;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+        }
+
+        .ridge
+        {
+            border: 7px ridge rgb(240, 128, 156);
+            width: 150px;
+            height: 60px;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+        }
+
+        .inset
+        {
+            border: 7px inset rgb(128, 240, 148);
+            width: 150px;
+            height: 60px;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+        }
+
+        .outset
+        {
+            border: 7px outset lightcoral;
+            width: 150px;
+            height: 60px;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+        }
+
+        .double
+        {
+            border: 7px double lightcoral;
+            width: 150px;
+            height: 60px;
+            padding: 20px 30px 20px 30px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <b class="dotted">Kiểu viền dotted</b><br><br><br><br>
+
+    <b class="dashed">Kiểu viền dashed</b><br><br><br><br>
+
+    <b class="solid">Kiểu viền solid</b><br><br><br><br>
+
+    <b class="double">Kiểu viền double</b><br><br><br><br>
+
+    <b class="groove">Kiểu viền groove</b><br><br><br><br>
+
+    <b class="ridge">Kiểu viền ridge</b><br><br><br><br>
+
+    <b class="inset">Kiểu viền inset</b><br><br><br><br>
+
+    <b class="outset">Kiểu viền outset</b><br><br><br><br>
+
+
+<label>Họ và tên</label>
+<input id="full_name">
+<br>
+<br>
+
+Các ngành đào tạo:
+    <input type="text" value="" list="ide">
+    <datalist id="ide">
+        <option value="Công nghệ thông tin"></option>
+        <option value="Khoa học máy tính"></option>
+        <option value="Tài chính ngân hàng"></option>
+        <option value="Thương mại điện tử"></option>
+        <option value="Kế toán"></option>
+    </datalist>
+    <br><br>
+
+
+    Ngành đào tạo:
+    <select>
+        <option>Công nghệ thông tin</option>
+        <option>Khoa học máy tính</option>
+        <option>Tài chính ngân hàng</option>
+        <option>Thương mại điện tử</option>
+        <option>Kế toán</option>
+    </select><br>
+    
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-witdh="4" fill="blue" ></circle>
+    </svg>
+
+
+<svg>
+    <path stroke="black" fill="pink"
+    d="M 10,30
+    A 20,20 0 0,1 50,30
+    A 20,20 0 0,1 90.30
+    Q 90,60 50,90
+    Q 10,60 10,30 z">
+</path>
+</svg>
+
+<svg width="500" height="150">
+    <ellipse cx="100" cy="70" rx="85" ry="55" stroke="yellow" stroke-width="20" fill="red"></ellipse>
+</svg>
+
+
+<p class="hinhvuong"></p><br>
+
+<p class="hinhchunhat"></p><br>
+
+
+<p class="hinhvuong">Hình vuông</p><br>
+
+    <p class="hinhchunhat">Hình chữ nhật</p><br>
+
+
+    <svg width="200" height="100">
+        <rect x="0" y="0" width="100" height="100" fill="violet"></rect>
+    </svg><br>
+    
+    <svg>
+        <rect x="40" y="10" rx="10" ry="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"></rect>
+    </svg>
+
+    <svg>
+        <rect x="40" y="10" rx="10" ry="10" width="30" height="20" stroke="black" fill="pink" stroke-width="3"></rect>
+    </svg>
+
+
+    <svg>
+        <line x1="0" y1="0" x2="150" y2="100" stroke="red" stroke-width="2"></line>
+    </svg>
+
+    <svg>
+        <polyline points="60 110 65 120 70 115 75 130 80 125 85 140 90 135 95 150 100 145"
+        stroke="orange" fill="transparent" stroke-width="5"></polyline>
+    </svg>
+
+    <svg>
+        <polygon stroke="red" fill="yellow"points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" />
+    </svg>
+    
+
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:rgb(250, 242, 3);stroke:rgb(216, 69, 15);stroke-width:2;fill-rule:evenodd;"></polygon>
+    </svg>
+
+
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:rgb(250, 242, 3);stroke:rgb(216, 69, 15);stroke-width:3;"></polygon>
+    </svg><br>
+    <br>
+
+
+    <svg width="250" height="250">
+        <polyline points="10,10 80,10 80,80 150,80 150,150 220,150 220,220"
+        fill="pink" stroke="palevioletred" stroke-width="3"></polyline>
+    </svg>
+
+
+    <svg width="250" height="250">
+        <path d="M 10 10 C 200 10, 10 200, 200 200"
+        style="stroke:crimson;stroke-width:3; fill:lightpink"></path>
+    </svg>
+
+  
+
+</body>
+</html>
+ 
